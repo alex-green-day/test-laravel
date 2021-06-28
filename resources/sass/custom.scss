@@ -1,0 +1,44 @@
+.form-text {
+    font-size: 12px;
+}
+label {
+    font-weight: bold;
+}
+#content-control {
+    min-height: 175px;
+}
+#ticket-title {
+    font-size: 18px;
+}
+#credentials-add-form {
+    div:first-child {
+        padding: 15px;
+    }
+}
+#credentials-from-submit {
+    margin: 15px;
+}
+#credentials-manager-form {
+    h5 {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .credentials-item {
+        margin: 10px;
+        height: 45px;
+        border-radius: 5px;
+        background-color: #f1f1f1;
+        &:hover {
+            background-color: #afdbff;
+            cursor: pointer;
+        }
+        span {
+            padding: 10px;
+            line-height: 3;
+        }
+        button {
+            float: right;
+            margin: 3px;
+        }
+    }
+}
